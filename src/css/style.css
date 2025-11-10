@@ -16,6 +16,8 @@ body {
     font-weight: 400;                    
 }
 
+/* HEADER */
+
 .header {
     grid-area: header;
     background-color: #fff;
@@ -40,11 +42,14 @@ body {
 }
 
 
+/* HERO */
 
 .hero {
     grid-area: hero;
     background-color: blue;
 }
+
+/* ABOUT */
 
 .about {
     grid-area: about;
@@ -52,15 +57,21 @@ body {
 
 }
 
+/* SERVICES */
+
 .services {
     grid-area: services;
     background-color: cornflowerblue;
 }
 
+/* PROJECTS */
+
 .projects {
     grid-area: projects;
     background-color: green;
 }
+
+/* FOOTER */
 
 .footer {
     grid-area: footer;
